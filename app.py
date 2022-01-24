@@ -17,7 +17,6 @@ app = Flask(__name__)
 api = Api(app)
 
 
-
 @app.route('/', methods=['GET'])
 def welcome():
     return 'Welcome to Spirit Anime Maker'
