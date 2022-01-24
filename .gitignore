@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Environment setting
+utils/env.json
+
+# db file
+*.db
