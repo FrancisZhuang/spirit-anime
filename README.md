@@ -1,6 +1,6 @@
 # Spirit Anime
 We would like to provide a spirit anime generator to our user. They can register their own spirit anime with name and
-dob, and have a fun.
+dob. Enjoy it and have fun.
 
 ## Install
    pip install -r requirements.txt
