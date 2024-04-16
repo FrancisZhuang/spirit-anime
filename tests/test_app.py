@@ -5,7 +5,7 @@ from flask import Flask
 from flask.testing import FlaskClient
 from flask_restful import Api
 
-from app import SpiritAnime, SpiritAnimeDetail
+from apps.app import SpiritAnime, SpiritAnimeDetail
 from utils.storage import Storage
 from utils.random_num import random_number
 

@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Environment setting
-utils/env.json
+src/utils/env.json
 
 # db file
 *.db

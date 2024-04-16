@@ -5,9 +5,9 @@ import json
 from flask import Flask
 from flask_restful import Api, Resource, reqparse, abort
 
-from external_apis.anime.character import AnimeCharacterAPI
-from external_apis.anime.quote import AnimeQuoteAPI
-from external_apis.food.foodish import FoodDishAPI
+from clients.anime.character import AnimeCharacterAPI
+from clients.anime.quote import AnimeQuoteAPI
+from clients.food.foodish import FoodDishAPI
 from utils.validator import valid_put_payload
 from utils.validator import valid_post_payload
 from utils.storage import Storage
